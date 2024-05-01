@@ -19,6 +19,8 @@
 		E42A1F8E2BE225E800D2C3BB /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = E42A1F8D2BE225E800D2C3BB /* FirebaseAppCheck */; };
 		E42A1F962BE2359A00D2C3BB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E42A1F952BE2359A00D2C3BB /* FirebaseFirestore */; };
 		E42A1F982BE2359A00D2C3BB /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E42A1F972BE2359A00D2C3BB /* FirebaseFirestoreSwift */; };
+		E42A1F9B2BE236D900D2C3BB /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A1F992BE236D900D2C3BB /* ChatBubbleShape.swift */; };
+		E42A1F9C2BE236D900D2C3BB /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A1F9A2BE236D900D2C3BB /* ChatBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E42A1F782BE2241D00D2C3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42A1F7B2BE2241D00D2C3BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E42A1F822BE224F400D2C3BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E42A1F992BE236D900D2C3BB /* ChatBubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+		E42A1F9A2BE236D900D2C3BB /* ChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 			children = (
 				E42A1F742BE2241800D2C3BB /* GeminiFirebaseSwiftUIApp.swift */,
 				E42A1F762BE2241800D2C3BB /* ContentView.swift */,
+				E42A1F9A2BE236D900D2C3BB /* ChatBubble.swift */,
+				E42A1F992BE236D900D2C3BB /* ChatBubbleShape.swift */,
 				E42A1F782BE2241D00D2C3BB /* Assets.xcassets */,
 				E42A1F822BE224F400D2C3BB /* GoogleService-Info.plist */,
 				E42A1F7A2BE2241D00D2C3BB /* Preview Content */,
@@ -176,7 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42A1F772BE2241800D2C3BB /* ContentView.swift in Sources */,
+				E42A1F9B2BE236D900D2C3BB /* ChatBubbleShape.swift in Sources */,
 				E42A1F752BE2241800D2C3BB /* GeminiFirebaseSwiftUIApp.swift in Sources */,
+				E42A1F9C2BE236D900D2C3BB /* ChatBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
