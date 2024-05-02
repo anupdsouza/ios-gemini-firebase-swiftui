@@ -22,6 +22,7 @@
 		E4D03EC52BE341FC00C34295 /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D03EC32BE341FC00C34295 /* ChatBubbleShape.swift */; };
 		E4D03EC62BE341FC00C34295 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D03EC42BE341FC00C34295 /* ChatBubble.swift */; };
 		E4D03EC82BE3424D00C34295 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D03EC72BE3424D00C34295 /* Chat.swift */; };
+		E4D03ECA2BE3440D00C34295 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D03EC92BE3440D00C34295 /* ChatService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E4D03EC32BE341FC00C34295 /* ChatBubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
 		E4D03EC42BE341FC00C34295 /* ChatBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 		E4D03EC72BE3424D00C34295 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		E4D03EC92BE3440D00C34295 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				E42A1F742BE2241800D2C3BB /* GeminiFirebaseSwiftUIApp.swift */,
 				E42A1F762BE2241800D2C3BB /* ContentView.swift */,
 				E4D03EC72BE3424D00C34295 /* Chat.swift */,
+				E4D03EC92BE3440D00C34295 /* ChatService.swift */,
 				E4D03EC42BE341FC00C34295 /* ChatBubble.swift */,
 				E4D03EC32BE341FC00C34295 /* ChatBubbleShape.swift */,
 				E42A1F782BE2241D00D2C3BB /* Assets.xcassets */,
@@ -189,6 +192,7 @@
 				E42A1F752BE2241800D2C3BB /* GeminiFirebaseSwiftUIApp.swift in Sources */,
 				E4D03EC82BE3424D00C34295 /* Chat.swift in Sources */,
 				E4D03EC62BE341FC00C34295 /* ChatBubble.swift in Sources */,
+				E4D03ECA2BE3440D00C34295 /* ChatService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
